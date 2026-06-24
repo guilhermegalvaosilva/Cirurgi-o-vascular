@@ -1,28 +1,11 @@
-# Tabela de Projetos GEREB
 
-Mini-aplicacao standalone em HTML, CSS e JavaScript para preservar a ideia da tabela editavel de projetos.
+  # Landing page para cirurgião vascular
 
-## Funcionalidades
+  This is a code bundle for Landing page para cirurgião vascular. The original project is available at https://www.figma.com/design/7ihqCQ5YUgoXkig9KsJUkb/Landing-page-para-cirurgi%C3%A3o-vascular.
 
-- Listagem dos projetos do Painel de Projetos GEREB em tabela.
-- Busca por projeto, titulo, objetivo, unidade, coordenador, instrumento e parceiro.
-- Filtros por coordenacao e parceiro.
-- Resumo automatico de quantidade, valor total, realizado e saldo.
-- Adicao de novos projetos.
-- Edicao inline por modal.
-- Exclusao de registros.
-- Rodape com contagem de projetos filtrados.
-- Persistencia no `localStorage`.
-- Restauracao da base original do painel.
-- Exportacao CSV do recorte filtrado.
+  ## Running the code
 
-## Como abrir
+  Run `npm i` to install the dependencies.
 
-Abra `index.html` diretamente no navegador.
-
-## Estrutura
-
-- `index.html`: estrutura da pagina.
-- `projects-data.js`: base gerada a partir do CSV do painel.
-- `styles.css`: estilos responsivos.
-- `script.js`: renderizacao da tabela, filtros, CRUD e exportacao.
+  Run `npm run dev` to start the development server.
+  
